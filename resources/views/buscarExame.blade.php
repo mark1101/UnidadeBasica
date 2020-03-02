@@ -1,7 +1,7 @@
 @extends('layout.layout');
 
 <!-- data-image="{{asset('img/unidade.jpg')}} -->
-    <div class="sidebar" style="right: 0;" data-color="purple" ">
+    <div class="sidebar" style="right: 0;" data-color="purple" >
         <div class="logo"><a href="#" class="simple-text logo-normal">
                 Unidade São José
             </a></div>
@@ -90,10 +90,8 @@
             </ul>
         </div>
     </div>
-
-@section('content')
-
-    <div class="main-panel">
+<!-- NAV BAR --> 
+<div class="main-panel">
         <!-- INICIO NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
@@ -136,6 +134,12 @@
             </div>
         </nav>
         <!-- FIM NAVBAR -->
+
+<br>
+<br>
+@section('content')
+
+    
 
         <!-- INICIO DE PESQUISA DE EXAME -->
         <div class="content">

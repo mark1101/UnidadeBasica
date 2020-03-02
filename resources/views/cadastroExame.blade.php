@@ -90,10 +90,9 @@
     </div>
 </div>
 
-@section('content')
-
-    <div class="main-panel">
-        <!-- Navbar -->
+<!-- NAV BAR --> 
+<div class="main-panel">
+        <!-- INICIO NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
 
@@ -115,8 +114,8 @@
                     <form class="navbar-form"></form>
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="javascript:;" id="navbarDropdownProfile"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="material-icons">short_text</i>
                                 <p class="d-lg-none d-md-block">
                                     Configuração
@@ -134,7 +133,13 @@
 
             </div>
         </nav>
-        <!-- End Navbar -->
+        <!-- FIM NAVBAR -->
+
+<br>
+<br>
+
+@section('content')
+
 
         <!-- CADASTRO DE EXAME COMPLETO  -->
         <div class="content">

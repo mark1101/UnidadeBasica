@@ -1,7 +1,6 @@
 @extends('layout.layout');
 
-<div class="sidebar" style="right: 0;" data-color="purple"
-     data-image="{{asset('img/unidade.jpg')}}">
+<div class="sidebar" style="right: 0;" data-color="purple">
     <div class="logo"><a href="#" class="simple-text logo-normal">
             Unidade São José
         </a></div>
@@ -91,50 +90,55 @@
     </div>
 </div>
 
-@section('content')
-    <div class="main-panel">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
-        <div class="container-fluid">
+<div class="main-panel">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+            <div class="container-fluid">
 
-          <div class="navbar-wrapper">
-            <a class="navbar-brand" href="javascript:">Gerenciamento de Paciente</a>
-          </div>
-
-          <!-- BOTAO DE RESPONSIVIDADE PARA OPCIOES DE SIDEBAR-->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-          </button>
-
-          <!-- TOPO EM CIMA PARA OPCAO DE SAIDA E CONFIGURAÇÃOES DE PERFIL E SISTEMA  -->
-          <div class="collapse navbar-collapse justify-content-end">
-            <form class="navbar-form"> </form>
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons">short_text</i>
-                  <p class="d-lg-none d-md-block">
-                    Configuração
-                  </p>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-                  <a class="dropdown-item" href="#">Profile</a>
-                  <a class="dropdown-item" href="#">Settings</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Log out</a>
+                <div class="navbar-wrapper">
+                    <a class="navbar-brand" href="javascript:;">Gestão de Encaminhamentos</a>
                 </div>
-              </li>
-            </ul>
-          </div>
 
-        </div>
-      </nav>
-      <!-- End Navbar -->
+                <!-- BOTAO DE RESPONSIVIDADE PARA OPCIOES DE SIDEBAR-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                </button>
+
+                <!-- TOPO EM CIMA PARA OPCAO DE SAIDA E CONFIGURAÇÃOES DE PERFIL E SISTEMA  -->
+                <div class="collapse navbar-collapse justify-content-end">
+                    <form class="navbar-form"></form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="javascript:;" id="navbarDropdownProfile"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">short_text</i>
+                                <p class="d-lg-none d-md-block">
+                                    Configuração
+                                </p>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <br>
+        <br>
+
+@section('content')
+   
 
 
       <div class="content">

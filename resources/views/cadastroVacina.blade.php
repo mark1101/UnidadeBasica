@@ -90,15 +90,14 @@
     </div>
 </div>
 
-@section('content')
-
-    <div class="main-panel">
-        <!-- Navbar -->
+<!-- NAV BAR --> 
+<div class="main-panel">
+        <!-- INICIO NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
 
                 <div class="navbar-wrapper">
-                    <a class="navbar-brand" href="javascript:;">Gerenciamento de Vacinas</a>
+                    <a class="navbar-brand" href="javascript:;">Gerenciamento de Exames</a>
                 </div>
 
                 <!-- BOTAO DE RESPONSIVIDADE PARA OPCIOES DE SIDEBAR-->
@@ -134,7 +133,14 @@
 
             </div>
         </nav>
-        <!-- End Navbar -->
+        <!-- FIM NAVBAR -->
+
+<br>
+<br>
+
+
+@section('content')
+
 
         <!-- CADASTRO DE EXAME COMPLETO  -->
         <div class="content">
