@@ -1,5 +1,6 @@
 @extends('layout.layout');
 
+
     <!-- BARRA LATERAL -->
     <div class="sidebar" style="right: 0;" data-color="purple">
         <div class="logo"><a href="#" class="simple-text logo-normal">
@@ -91,6 +92,7 @@
         </div>
     </div>
 
+
     <div class="main-panel">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
@@ -141,8 +143,8 @@
 
 
 
-            <button type="submit" class="btn btn-primary pull-right">
-                <a style="#ffff" href="{{route('comunicacao')}}">Nova Mensagem</a>
+            <button type="submit" class="btn btn-primary pull-right" style="left: 15px">
+                <a style= "color:#ffffff " href="{{route('comunicacao')}}">Nova Mensagem</a>
             </button>
             <div class="content">
 
@@ -210,10 +212,10 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
+
+
+@endsection
+<footer class="footer">
                 <div class="container-fluid">
                 </div>
             </footer>
-        </div>
-@endsection
-

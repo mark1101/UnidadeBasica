@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d01674d7-551d-44e4-a671-cee8ca160e26" name="Default Changelist" comment="" />
+    <list default="true" id="d01674d7-551d-44e4-a671-cee8ca160e26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/layoutInicio.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/recados.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recados.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -100,6 +110,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YVQO99hvTOVlGQb8hViQzs9J6I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -107,6 +118,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -135,6 +147,7 @@
       <updated>1583025248263</updated>
       <workItem from="1583025257397" duration="10048000" />
       <workItem from="1583167779776" duration="7611000" />
+      <workItem from="1583187479671" duration="6315000" />
     </task>
     <servers />
   </component>
@@ -142,10 +155,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="382" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583174626747">
+    <state x="382" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583188860326">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="382" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1304.768@0.0.1304.768" timestamp="1583174626747" />
+    <state x="382" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1304.768@0.0.1304.768" timestamp="1583188860326" />
     <state x="155" y="29" key="SettingsEditor" timestamp="1583174549861">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
